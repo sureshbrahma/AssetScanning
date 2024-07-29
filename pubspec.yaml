@@ -1,0 +1,36 @@
+name: sssetscanning
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  googleapis: ^5.0.0
+  googleapis_auth: ^1.4.1
+  path_provider: ^2.0.2
+  qr_code_scanner: ^1.0.1
+
+  cupertino_icons: ^1.0.6
+  flutter_barcode_scanner: ^2.0.0
+  permission_handler: ^10.4.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background_image.jpg
+    - assets/small_logo.jpg
+    - assets/androidfastrack-aa32e2e5db9c.json
+    - assets/ic_launcher.png
